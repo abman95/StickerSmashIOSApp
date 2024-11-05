@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+
+# Expo
+.expo/
+expo-env.d.ts
+.expo-shared/
+
+# Build artifacts
+dist/
+web-build/
+
+# Log files
+npm-debug.*
+*.log
+
+# Android/iOS specific files
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Temporary files
+*.orig.*
+
+# macOS
+.DS_Store
+
+# Other
+.env
+
+# Ignore generated files
+# @generated expo-cli sync-2b81b286409207a5da26e14c78851eb30d8ccbdb
+# @end expo-cli
