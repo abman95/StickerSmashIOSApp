@@ -1,55 +1,56 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
+# StickerSmash
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+StickerSmash ist eine Tutorial-App von Expo, mit der Benutzer Bilder von ihrem Mobilgerät auswählen, zuschneiden und Sticker hinzufügen können. Nach der Bearbeitung können die Benutzer das bearbeitete Bild speichern.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Bilder auswählen**: Greife auf die Fotobibliothek des Geräts zu, um Bilder auszuwählen.
+- **Bilder zuschneiden**: Ändere die Größe und das Format der ausgewählten Bilder.
+- **Sticker hinzufügen**: Füge kreative Sticker zu den Bildern hinzu.
+- **Speichern**: Speichere die bearbeiteten Bilder direkt auf deinem Gerät.
+
+## Voraussetzungen
+
+Bevor du mit der Nutzung der StickerSmash-App beginnst, stelle sicher, dass folgende Voraussetzungen erfüllt sind:
+
+- Node.js und npm (Node Package Manager) sind auf deinem Computer installiert.
+- Expo Go auf deinem Mobilgerät installiert (verfügbar für iOS und Android).
+
+## Installation
+
+1. **Repository klonen**:
+
+   ```bash
+   git clone https://github.com/deinbenutzername/StickerSmash.git
+   cd StickerSmash
+   ```
+
+2. **Abhängigkeiten installieren**:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Projekt starten**:
+
+   Starte das Projekt mit Expo:
 
    ```bash
-    npx expo start
+   expo start
    ```
 
-In the output, you'll find options to open the app in a
+   Dies öffnet ein neues Fenster im Browser mit QR-Code. Scanne den QR-Code mit der Expo Go-App auf deinem Mobilgerät, um die App zu laden.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Nutzung
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Zugriff auf Bilder**: Gewähre der App die Berechtigung, auf die Bilder in deiner Fotobibliothek zuzugreifen.
+- **Bildbearbeitung**: Wähle ein Bild aus, passe die Größe an und füge Sticker hinzu.
+- **Speichern**: Speichere das bearbeitete Bild auf deinem Gerät.
 
-## Get a fresh project
+## Unterstützung
 
-When you're ready, run:
+Wenn du auf Probleme stößt oder Fragen hast, eröffne bitte ein Issue im GitHub-Repository.
 
-```bash
-npm run reset-project
-```
+## Lizenz
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# StickerSmashIOSApp
-StickerSmashIOSApp
->>>>>>> 6eca905c2f7d162594fce9d02752e37d9a830262
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die [LICENSE](LICENSE) Datei für weitere Informationen.
